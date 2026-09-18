@@ -7,7 +7,7 @@ Console.WriteLine("Masukkan nama siswa: ");
 namaSiswa = Console.ReadLine();
 
 Console.WriteLine("Masukkan nilai siswa: ");
-nilaiSiswa = Console.ReadLine();
+nilaiSiswa = int.Parse(Console.ReadLine()!);
 
 if (nilaiSiswa >= 75)
 {
